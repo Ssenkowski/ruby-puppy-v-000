@@ -13,4 +13,8 @@ class puppy
       puts puppy.name
     end
   end
-end 
+
+  def clear_all
+    @@all.clear
+  end
+end
